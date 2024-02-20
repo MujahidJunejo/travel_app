@@ -12,12 +12,11 @@ function SideBar() {
 							<span className="nav-text">Dashboard</span>
 						</a>
 						<ul aria-expanded="false">
-							<li><a href="index.html">Dashboard Light</a></li>
-							<li><Link to="/guest-list">Guest List</Link></li>
-							<li><a href="guest-details.html">Guest Details</a></li>
-							<li><a href="concierge-list.html">Concierge List</a></li>
-							<li><a href="room-list.html">Room List</a></li>
-							<li><a href="reviews.html">Reviews</a></li>	
+							<li><Link to="/customer-list">Customer List</Link></li>
+							<li><Link to="/customer-details">Customer Details</Link></li>
+							<li><Link to="/employees">Employees List</Link></li>
+							<li><Link to="/room-list">Room List</Link></li>
+							<li><Link to="/reviews">Customer Reviews</Link></li>	
 						</ul>
 
 					</li>
@@ -131,8 +130,8 @@ function SideBar() {
 							<span className="nav-text">Pages</span>
 						</a>
 						<ul aria-expanded="false">
-							<li><a href="page-login.html">Login</a></li>
-							<li><a href="page-register.html">Register</a></li>
+							<li><Link to="login">Login</Link></li>
+							<li><Link to="register">Register</Link></li>
 							<li><a className="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
 								<ul aria-expanded="false">
 									<li><a href="page-error-400.html">Error 400</a></li>
