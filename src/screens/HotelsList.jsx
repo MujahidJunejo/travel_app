@@ -1,26 +1,26 @@
 import React from 'react'
 
-function RoomList() {
+function HotelsList() {
   return (
     <>
-    <div >
+   
 			
 			<div className="container-fluid">
 				<div className="mt-4 d-flex justify-content-between align-items-center flex-wrap">
 					<div className="card-action coin-tabs mb-2">
 						<ul className="nav nav-tabs" role="tablist">
 							<li className="nav-item">
-								<a className="nav-link active" data-bs-toggle="tab" href="#AllRooms">All Rooms</a>
+								<a className="nav-link active" data-bs-toggle="tab" href="#AllRooms">All Hotels</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" data-bs-toggle="tab" href="#ActiveEmployee">Active Employee</a>
+								<a className="nav-link" data-bs-toggle="tab" href="#ActiveEmployee">Avaialable Hotels</a>
 							</li>
 							<li className="nav-item">
 								<a className="nav-link" data-bs-toggle="tab" href="#InactiveEmployee">Inactive Employee</a>
 							</li>
 						</ul>
 					</div>
-					<div className="d-flex align-items-center mb-2"> 
+					{/* <div className="d-flex align-items-center mb-2"> 
 						<a href="javascript:void(0);" className="btn btn-secondary">+ New Employee</a>
 						<div className="newest ms-3">
 							<select className="default-select">
@@ -28,7 +28,7 @@ function RoomList() {
 								<option>Oldest</option>
 							</select>
 						</div>	
-					</div>
+					</div> */}
 				</div>
 				<div className="row mt-4">
 					<div className="col-xl-12">
@@ -45,7 +45,7 @@ function RoomList() {
 															  <input className="form-check-input" type="checkbox" value="" id="checkAll3"/>
 															</div>
 														</th>
-														<th>Room Name</th>
+														<th>Hotel Name</th>
 														<th>Bed Type</th>
 														<th>Room Floor</th>
 														<th>Facilities</th>
@@ -66,7 +66,7 @@ function RoomList() {
 																<img className="me-3 rounded" src="images/room/room4.jpg" alt=""/>
 																<div>
 																	<span className=" text-secondary fs-14 d-block">#12341225</span>
-																	<span className=" fs-16 font-w500 text-nowrap">Deluxe A-91234</span>
+																	<span className=" fs-16 font-w500 text-nowrap">Broadway-Hotel</span>
 																</div>
 															</div>
 														</td>
@@ -117,10 +117,10 @@ function RoomList() {
 														</td>
 														<td>
 															<div className="room-list-bx d-flex align-items-center">
-																<img className="me-3 rounded" src="images/room/room5.jpg" alt=""/>
+																<img className="me-3 rounded" src="images/room/room8.jpeg" alt=""/>
 																<div>
 																	<span className=" text-secondary fs-14 d-block">#12341225</span>
-																	<span className=" fs-16 font-w500 text-nowrap">Deluxe A-91234</span>
+																	<span className=" fs-16 font-w500 text-nowrap">Garner-Hotel</span>
 																</div>
 															</div>
 														</td>
@@ -815,9 +815,9 @@ function RoomList() {
 					</div>
 				</div>
 			</div>
-		</div>
-    </>
+		</>
+   
   )
 }
 
-export default RoomList
+export default HotelsList

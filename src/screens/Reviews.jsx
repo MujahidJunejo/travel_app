@@ -3,7 +3,7 @@ import React from 'react'
 function Reviews() {
   return (
     <>
-    <div className="content-body">
+    <div >
 			
 			<div className="container-fluid">
 				<div className="row mt-4">

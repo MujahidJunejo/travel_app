@@ -10,6 +10,7 @@ import Employees from './screens/Employees'
 import Reviews from './screens/Reviews'
 import Login from './screens/Login'
 import RegisterPage from './screens/RegisterPage'
+import HotelsList from './screens/HotelsList'
 function App() {
   return (
     <div id='root'> 
@@ -26,6 +27,7 @@ function App() {
             <Route path='/reviews' element={<Reviews />} />
             <Route path='/login' element={<Login />} />
             <Route path='/register' element={<RegisterPage />} />
+            <Route path='/hotels-list' element={<HotelsList />} />
           </Routes>
         </div>
       </div>

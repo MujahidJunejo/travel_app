@@ -3,7 +3,7 @@ import React from 'react'
 function Employees() {
   return (
     <>
-    <div className="content-body">
+    <div >
 			
 			<div className="container-fluid">
 				<div className="d-flex justify-content-between align-items-center flex-wrap">

@@ -14,6 +14,7 @@ function SideBar() {
 						<ul aria-expanded="false">
 							<li><Link to="/customer-list">Customer List</Link></li>
 							<li><Link to="/customer-details">Customer Details</Link></li>
+							<li><Link to="/hotels-list">Hotels List</Link></li>
 							<li><Link to="/employees">Employees List</Link></li>
 							<li><Link to="/room-list">Room List</Link></li>
 							<li><Link to="/reviews">Customer Reviews</Link></li>	

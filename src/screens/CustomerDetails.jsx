@@ -5,7 +5,7 @@ function CustomerDetails() {
     <>
 <div className="header">
 			<div className="header-content">
-				<nav className="navbar navbar-expand">
+				<nav className=" navbar-expand">
 					<div className="collapse navbar-collapse justify-content-between">
 						<div className="header-left">
 							<div className="dashboard_bar">
